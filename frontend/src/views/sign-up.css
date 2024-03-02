@@ -1,0 +1,29 @@
+.sign-up-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-up-text {
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.sign-up-form {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.sign-up-textinput1 {
+  flex: 0;
+}
+.sign-up-button {
+  color: #ffffff;
+  width: 100%;
+  background-color: #5c4dff;
+}
+.sign-up-link {
+  margin-top: var(--dl-space-space-unit);
+}

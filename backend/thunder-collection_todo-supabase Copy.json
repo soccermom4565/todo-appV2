@@ -1,0 +1,146 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "todo-supabase Copy",
+    "dateExported": "2024-02-01T20:41:37.136Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "acf97576-6d53-4fd5-8f2c-c426e3a00c2f",
+            "colId": "9b29e218-3ed4-4826-904a-67004b322fc2",
+            "containerId": "",
+            "name": "http://localhost:3000/lists",
+            "url": "http://localhost:3000/lists",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-01T20:30:45.904Z",
+            "modified": "2024-02-01T20:41:13.879Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\":\"yearly goals\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "22c9e26a-ee3b-4eb5-b021-962605080753",
+            "colId": "9b29e218-3ed4-4826-904a-67004b322fc2",
+            "containerId": "",
+            "name": "http://localhost:3000/lists",
+            "url": "http://localhost:3000/lists",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-02-01T20:30:45.906Z",
+            "modified": "2024-02-01T20:30:45.906Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f9257339-47b1-4abe-8105-0b603dba66f2",
+            "colId": "9b29e218-3ed4-4826-904a-67004b322fc2",
+            "containerId": "",
+            "name": "http://localhost:3000/lists",
+            "url": "http://localhost:3000/lists",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-01T20:30:45.907Z",
+            "modified": "2024-02-01T20:30:45.907Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\":\"yearly goals\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "1939789d-2823-45c1-a48c-219c226824ec",
+            "colId": "9b29e218-3ed4-4826-904a-67004b322fc2",
+            "containerId": "",
+            "name": "http://localhost:3000/lists/1/todos",
+            "url": "http://localhost:3000/lists/1/todos",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-01T20:30:45.909Z",
+            "modified": "2024-02-01T20:30:45.909Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\":\"pizzza\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "ddc7ff3d-63bf-44ac-88ea-62fbcb7ccbd1",
+            "colId": "9b29e218-3ed4-4826-904a-67004b322fc2",
+            "containerId": "",
+            "name": "http://localhost:3000/lists/1/todos",
+            "url": "http://localhost:3000/lists/1/todos",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-01T20:30:45.910Z",
+            "modified": "2024-02-01T20:30:45.910Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"name\":\"pizzza\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a1aa3a65-1d2a-452e-a382-d2136ed2de4b",
+            "colId": "9b29e218-3ed4-4826-904a-67004b322fc2",
+            "containerId": "",
+            "name": "http://localhost:3000/todos/1",
+            "url": "http://localhost:3000/todos/1",
+            "method": "PATCH",
+            "sortNum": 60000,
+            "created": "2024-02-01T20:30:45.911Z",
+            "modified": "2024-02-01T20:30:45.911Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\"isDone\":\"true\"}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "bc373acc-ece4-43b7-a750-6f39914c9067",
+            "colId": "9b29e218-3ed4-4826-904a-67004b322fc2",
+            "containerId": "",
+            "name": "http://localhost:3000/lists/3",
+            "url": "http://localhost:3000/lists/3",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-02-01T20:30:45.912Z",
+            "modified": "2024-02-01T20:30:45.912Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f08529d9-25a9-471f-8df1-09b9678cc336",
+            "colId": "9b29e218-3ed4-4826-904a-67004b322fc2",
+            "containerId": "",
+            "name": "http://localhost:3000/todos/1",
+            "url": "http://localhost:3000/todos/1",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-02-01T20:30:45.913Z",
+            "modified": "2024-02-01T20:30:45.913Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
