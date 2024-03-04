@@ -30,7 +30,6 @@ app.use(async (req, res, next)=> {
   } catch (error) {
     // throw error
     res.status(400).json({ error: 'Bad Request' }); 
-    console.log("u are a bad boy")
   }
   console.log(req.headers)
   console.log("pass mid")
